@@ -1,0 +1,32 @@
+{
+  "name": "shipyard-auth-backend",
+  "version": "1.0.0",
+  "description": "Shipyard Authentication and Authorization Project",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "express",
+    "jwt",
+    "authentication",
+    "authorization"
+  ],
+  "author": "Emil Tom Joseph",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "supertest": "^7.1.1"
+  }
+}
