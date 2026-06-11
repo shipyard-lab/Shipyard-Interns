@@ -1,0 +1,63 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uncomment to ignore lockfiles:
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+.pnpmfile.cjs
+
+# Runtime logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache
+.npm/
+
+# Environment variables
+.env
+.env.*.local
+/local.env
+/local-*.env
+.env.docker
+
+# Build outputs
+dist/
+build/
+
+# Test and coverage
+coverage/
+.nyc_output/
+jest.config.js.snap
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Archives
+*.tgz
+*.gz
+
+# agent
+.agent/
